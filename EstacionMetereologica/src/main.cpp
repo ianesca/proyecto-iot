@@ -1,9 +1,6 @@
 #include <Arduino.h>
 #include <WiFi.h>
-
-// Cambia estos valores por los de tu red Wi-Fi
-const char* ssid = "Pc-Alex";
-const char* password = "123456789";
+#include <access.h>
 
 void setup() {
   Serial.begin(115200);
